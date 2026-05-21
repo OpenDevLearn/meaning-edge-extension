@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="grad48" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="9" fill="url(#grad48)"/>
+  <g transform="translate(9, 9)">
+    <path d="M 15 4 C 14.2 4 13.5 4.7 13.5 5.5 L 13.5 24.5 C 13.5 25.3 14.2 26 15 26 L 22.5 26 C 23.3 26 24 25.3 24 24.5 L 24 5.5 C 24 4.7 23.3 4 22.5 4 L 15 4 Z M 15 6 L 22.5 6 L 22.5 24 L 15 24 L 15 6 Z" fill="white"/>
+    <path d="M 5.5 7.5 C 4.7 7.5 4 8.2 4 9 L 4 28 C 4 28.8 4.7 29.5 5.5 29.5 L 13 29.5 C 13.8 29.5 14.5 28.8 14.5 28 L 14.5 9 C 14.5 8.2 13.8 7.5 13 7.5 L 5.5 7.5 Z M 5.5 9.5 L 13 9.5 L 13 27.5 L 5.5 27.5 L 5.5 9.5 Z" fill="white" opacity="0.7"/>
+    <circle cx="8" cy="13" r="0.8" fill="#764ba2"/>
+    <circle cx="10.5" cy="13" r="0.8" fill="#764ba2"/>
+    <rect x="7.5" y="15.5" width="3.5" height="0.8" rx="0.4" fill="#764ba2"/>
+    <rect x="7.5" y="17.5" width="3.5" height="0.8" rx="0.4" fill="#764ba2"/>
+    <rect x="7.5" y="19.5" width="3" height="0.8" rx="0.4" fill="#764ba2"/>
+    <circle cx="17.5" cy="10.5" r="0.8" fill="#667eea"/>
+    <circle cx="20" cy="10.5" r="0.8" fill="#667eea"/>
+    <rect x="17" y="13" width="3.5" height="0.8" rx="0.4" fill="#667eea"/>
+    <rect x="17" y="15" width="3.5" height="0.8" rx="0.4" fill="#667eea"/>
+    <rect x="17" y="17" width="3" height="0.8" rx="0.4" fill="#667eea"/>
+  </g>
+</svg>

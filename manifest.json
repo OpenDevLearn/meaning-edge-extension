@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Word Meaning",
+  "version": "2.0.0",
+  "description": "Look up word definitions, save vocabulary, and export to CSV. Learn while you browse!",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.dictionaryapi.dev/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.svg",
+    "48": "icons/icon48.svg",
+    "128": "icons/icon128.svg"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.svg",
+      "48": "icons/icon48.svg",
+      "128": "icons/icon128.svg"
+    },
+    "default_title": "Word Meaning",
+    "default_popup": "popup.html"
+  }
+}
